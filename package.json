@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "DEBUG": "DEBUG=express:* node ./bin/www",
     "start": "node ./bin/www"
   },
   "dependencies": {
@@ -12,6 +13,7 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "less-middleware": "~2.2.1",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "mysql": "^2.17.1"
   }
 }
